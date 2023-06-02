@@ -6,6 +6,36 @@
     height: 30px;
     padding: 5%;
 }
+#nav2{
+    margin-left: 10%;
+    gap: 10%;
+}
+#but{
+    display: flex;
+    gap: 5%;
+}
+#but button{
+    padding: 5px 40px;
+    color: black;
+
+}
+#but button #but2{
+    color: wheat;
+}
+button{
+    background-color: yellow;
+    color: white;
+    border: none;
+    /* padding: 3%; */
+    border-radius: 3%;
+}
+#flash{
+    background-color: black;
+    color: white;
+    border-radius: 3%;
+    width: 200px;
+    text-align: center;
+}
 #img{
     width: 400px;
     height: 400px;
@@ -16,13 +46,41 @@
     gap: 5%;
     
 }
+#hd{
+    width: 200px;
+    height: 220px;
+    margin-top: 20%;
+}
+#two1{
+    padding: 2%;
+    color: white;
+    display: flex;
+    border: solid aliceblue;
+    background: rgb(207,194,208);
+    background: linear-gradient(90deg, rgba(207,194,208,1) 1%, rgba(178,191,230,1) 6%, rgba(134,131,179,1) 53%, rgba(186,174,185,1) 98%, rgba(125,123,154,1) 100%);
+/* background-image: url(./images/headphones.png); */
+
+}
+#two2{
+    padding: 2%;
+    background: rgb(210,126,187);
+    background: linear-gradient(90deg, rgba(210,126,187,1) 0%, rgba(200,133,205,1) 20%, rgba(188,125,200,1) 33%, rgba(153,109,164,1) 53%, rgba(181,114,175,1) 85%, rgba(220,139,221,1) 100%);
+    color: white;
+    display: flex;
+    border: solid aliceblue;
+    
+}
 .nav li{
-    list-style: none;
+    list-style: 
+    none;
 }
 #icons{
     border: solid aliceblue;
-    width: 200px;
+    width: 220px;
     height: 150px;
+    align-items: center;
+    text-align: center;
+    border-radius: 3%;
 }
 .icons{
     display: flex;
@@ -42,6 +100,7 @@
     /* padding: 1px 30px; */
 
 }
+
 
 #products {
     gap: 3%;
@@ -64,16 +123,35 @@
   }
 
 #Cat{
+    background-color: white;
     width: 20px;
     height: 20px;
 }
+.cat1{
+    display: flex ;
+    padding: 5px 50px;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    
+}
+input{
+    border: none;
+}
 .cat{
-    display: flex;
+    display: flex ;
+    padding: 5px 50px;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    /* display: flex; */
+
 }
 .catego{
     display: flex;
     gap: 30px;
-    padding: 5%;
+    padding: 1%;
 }
 .para{
     background: rgb(162,108,167);
@@ -166,4 +244,34 @@ background: linear-gradient(90deg, rgba(207,194,208,1) 1%, rgba(218,178,230,1) 6
 }
 span{
     color: yellow;
+}
+@media screen and (max-width:878px) {
+    .nav{
+        display: flex;
+        gap:2%;
+        background-color: black;
+        color: white;
+        height: 30px;
+        padding: 5%;
+    }
+    #nav2{
+        margin-left: 2%;
+        gap: 1%;
+    }
+    .para{
+        background: rgb(162,108,167);
+        background: linear-gradient(90deg, rgba(162,108,167,1) 1%, rgba(218,178,230,1) 28%, rgba(137,131,237,1) 53%, rgba(186,174,185,1) 99%, rgba(108,102,203,1) 100%);
+        height: 300px;
+        width: 60%;
+        margin-left: 1%;
+        padding:5%;
+        
+    }
+    #par{
+        align-items: center;
+        /* padding-bottom: 10%; */
+        margin-right: 1%;
+    }
+
+    
 }

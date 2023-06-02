@@ -10,8 +10,11 @@ function generateProducts(products_details) {
               <p>${product.price}</p>
               <button>ADD TO CART</button>
               </div>
+
+
           `;
       products_container.appendChild(myproducts);
+      
     });
   }
   function fetchallProducts() {
